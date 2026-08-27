@@ -4,10 +4,15 @@
     "slug": "e-chakki",
     "version": "1.0.0",
     "sdkVersion": "50.0.0",
+    "platforms": ["ios", "android", "web"],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": false,
+    "assetBundlePatterns": ["**/*"],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -15,10 +20,12 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.echakki.app"
+      "bundleIdentifier": "com.echakki.app",
+      "buildNumber": "1"
     },
     "android": {
       "package": "com.echakki.app",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
