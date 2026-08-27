@@ -4,6 +4,10 @@
     "slug": "e-chakki",
     "version": "1.0.0",
     "sdkVersion": "50.0.0",
+    "runtimeVersion": { "policy": "sdkVersion" },
+    "owner": "Utkarsh12pp",
+    "description": "E-Chakki - simple Expo app for grain mill management",
+    "privacy": "public",
     "platforms": ["ios", "android", "web"],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -34,6 +38,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "githubUrl": "https://github.com/Utkarsh12pp/e-chakki"
     }
   }
 }
