@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "e-chakki-",
-    "slug": "snack-47289e84-e809-49b5-a0ca-01ed08372f89",
+    "name": "e-chakki",
+    "slug": "e-chakki",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.echakki.app"
     },
     "android": {
       "package": "com.echakki.app",
